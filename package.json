@@ -10,8 +10,18 @@
   "keywords": [],
   "license": "MIT",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.3.2",
-    "parcel": "^2.3.2",
-    "sass": "^1.49.8"
-  }
+    "@parcel/transformer-sass": "^2.4.0",
+    "parcel": "^2.4.0",
+    "sass": "^1.49.9"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RVCC-IDMX/get-started-jessica-nagar.git"
+  },
+  "author": "Jessica Nagar <g00289544@stu.raritanval.edu> (https://github.com/RVCC-IDMX/utter-nonsense-jessica-nagar)",
+  "bugs": {
+    "url": "https://github.com/RVCC-IDMX/get-started-jessica-nagar/issues"
+  },
+  "homepage": "https://github.com/RVCC-IDMX/get-started-jessica-nagar#readme"
 }
