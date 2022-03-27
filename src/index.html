@@ -10,7 +10,101 @@
 </head>
 
 <body>
-  <h1>Parcel Starter</h1>
+  <main>
+    <h1>Get Started</h1>
+    <div class="wrapper">
+      <div class="container">
+        <h2 class="title">Pick a Template</h2>
+        <p class="description">Choose from a selection of over 300 templates. Perfect for Birthdays, Graduation, Anniversaries and more!</p>
+      </div>
+
+      <div class="container">
+        <h2 class="title">Make it your own</h2>
+        <p class="description">Customize your card by uploading images, videos and writing a personal message!</p>
+      </div>
+
+      <div class="container">
+        <h2 class="title">Share it out</h2>
+        <p class="description">Send your card out by email or text. You can send your card out immediately or schedule it for the perfect time and date.</p>
+      </div>
+    </div>
+
+    <h1>About</h1>
+    <div class="about_wrapper">
+      <div class="about_container">
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae magna dictum, laoreet dolor tincidunt, tristique mi. Nam ut molestie erat. Aliquam egestas a ex a euismod. Nulla condimentum lacinia ullamcorper. Cras porttitor enim in purus pretium sollicitudin. Curabitur lobortis eu eros ut consectetur. Maecenas sollicitudin magna justo, in mattis augue posuere at. Etiam interdum mauris sed ex suscipit, ac viverra elit tristique. Nam eu laoreet turpis. Nulla dapibus, urna eget molestie vehicula, risus diam porttitor tortor, egestas viverra sapien sem sed est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec libero dui, tempus eget mauris egestas, ornare lacinia justo. Nam tempus congue mi, sit amet aliquam lorem venenatis in.</p>
+        <p></p>
+        <p>Curabitur sodales libero eros, ac pretium sapien rutrum vel. Vivamus ornare convallis tellus, eget imperdiet nisi luctus a. Donec tincidunt commodo justo, vitae efficitur ex pellentesque id. Aliquam sapien nisl, vestibulum non erat et, egestas mollis leo. Sed venenatis in mauris vitae mollis. Donec at eros sagittis, suscipit nunc sit amet, pharetra tortor. Curabitur nec odio justo. Aenean efficitur euismod tristique. Aenean vitae lobortis turpis, id pulvinar velit. Morbi feugiat nisl sit amet nisi commodo luctus. Donec vitae placerat sapien.</p>
+      </div>
+    </div>
+
+    <h1>Contact</h1>
+    <div class="contact_wrapper">
+      <div class="contact_container">
+        <form class="contactForm" name="contactForm" method="post" data-netlify="true">
+
+            <div class="formElements">
+
+              <div class="name">
+                <label for="name">Name (required) </label>
+                <input type="text" class="name" name="name" required>
+              </div>
+
+              <div class="email">
+                <label for="email"> Email (required) </label>
+                <input type="email" class="email" name="email" required>
+              </div>
+
+              <div class="phone">
+                <label for="phone">Phone (optional) </label>
+                <input type="tel" class="phone" name="phone">
+              </div>
+
+              <div class="phone_type">
+                <label for="phoneType"> Phone type (optional) </label>
+                <select class="phoneType" name="phoneType">
+
+                  <option value="" selected>Select phone type</option>
+                  <option value="Mobile">Mobile</option>
+                  <option value="Work">Work</option>
+                  <option value="Home">Home</option>
+
+                </select>
+              </div>
+
+              <div class="message">
+                <label for="message"> Message (optional) </label>
+                <p></p>
+                <textarea class="message" name="message" rows="8"></textarea>
+              </div>
+
+              <div class="reply">
+                <legend>Would you like a reply?</legend>
+
+                <ul>
+                  <li>
+                    <input type="radio" class="message-yes" name="reply" value="Yes a reply please.">
+                    <label for="message-yes">Yes a reply would be nice.</label>
+                  </li>
+                  <li>
+                    <input type="radio" class="message-no" name="reply" value="No reply please." checked>
+                    <label for="message-no">No, thanks.</label>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="send">
+                <button type="submit">Send</button>
+              </div>
+
+            </div>
+
+        </form>
+      </div>
+    </div>
+    
+    
+  </main>
 </body>
 
 </html>
