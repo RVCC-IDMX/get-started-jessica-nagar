@@ -27,6 +27,90 @@ main {
   margin: 2rem;
 }
 
+/* make scrolling smooth */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* navbar */
+
+.nav {
+  border-bottom: 1px solid var(--clr-graymed);
+
+  &__toggle {
+      position: absolute;
+      cursor: pointer;
+      margin: 0rem 1rem;
+      right: 0;
+
+      img {
+          width: 3rem;
+          fill: var(--clr-graymed);
+      }
+  
+      .close {
+          display: none;
+      }
+  
+      .menu {
+          margin-top: 0.2rem;
+      }
+  }
+
+  &__checkbox {
+      display: none;
+  }
+  
+  &__menu {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      align-items: center;
+      margin: 1rem;
+  
+      li{
+          list-style: none;
+          display: none;
+  
+          &:first-child {
+              margin-right: auto;
+              display: block;
+          }
+      }
+  
+      a {
+          text-decoration: none;
+          color: inherit;
+          font-size: 1.2rem;
+      }
+  
+      svg {
+          width: 1.5rem;
+          fill: var(--clr-graymed)
+      }
+  }
+}
+
+// Toggle the hamburger menu in mobile view
+#nav__checkbox:checked ~ ul.nav__menu li {
+  display: block;
+}
+
+// Change from menu to close icon on tap
+#nav__checkbox:checked ~ label.nav__toggle .close {
+  display: block;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .menu {
+  display: none;
+}
+
+.nav__menu a:hover,
+.nav__menu a:focus {
+  border-bottom: 3px #12e7c0 solid;
+}
+
 h1 {
   text-align: center;
 }
@@ -267,6 +351,23 @@ ul {
 
 //PC or Larger Screens
 @media screen and (min-width: 1200px) {
+
+  .nav {
+    flex-direction: row;
+    justify-content: space-between;
+    &__toggle {
+        display: none;
+    }
+
+    &__menu {
+        flex-direction: row;
+        justify-content: space-between;
+
+        li {
+            display: block;
+        }
+    }
+}
   
   .about_wrapper {
     display: flex;
