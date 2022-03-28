@@ -1,4 +1,20 @@
-# Starter Page Builder
+# Website Description
+This website is a basic template for a custom card company. 
+There is a menu with links at the top for each section (Get Started, About, and Menu).
+The Get Started section takes you through the steps of what needs to be done to create a card.
+The About section just talks a little about the company and how they got started.
+The Contact section is a form you can use to ask us questions or concerns you have about the process or your order.
+
+# Figma Link
+`https://www.figma.com/file/s1dCGXrJzsf92DpGEepwER/Figma?node-id=7%3A80`
+
+# Helpful Videos created by Angela Delise
+
+### How to create the basic website:
+`https://www.youtube.com/watch?v=G4Z0E9uEb0o`
+
+### How to create the interactive and responsive navigation bar
+`https://www.youtube.com/watch?v=SIzi9z8mrTk`
 
 ## How to use this repo
 
