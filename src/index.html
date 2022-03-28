@@ -64,40 +64,29 @@
 
               <div class="formElements">
 
-                <div class="name">
-                  <label for="name">Name (required) </label>
-                  <input type="text" class="name" name="name" required>
-                </div>
+                <label for="name">Name (required) </label>
+                <input type="text" class="name" name="name" required>
 
-                <div class="email">
-                  <label for="email"> Email (required) </label>
-                  <input type="email" class="email" name="email" required>
-                </div>
+                <label for="email"> Email (required) </label>
+                <input type="email" class="email" name="email" required>
 
-                <div class="phone">
-                  <label for="phone">Phone (optional) </label>
-                  <input type="tel" class="phone" name="phone">
-                </div>
+                <label for="phone">Phone (optional) </label>
+                <input type="tel" class="phone" name="phone">
 
-                <div class="phone_type">
-                  <label for="phoneType"> Phone type (optional) </label>
-                  <select class="phoneType" name="phoneType">
+                <label for="phoneType"> Phone type (optional) </label>
+                <select class="phoneType" name="phoneType">
 
-                    <option value="" selected>Select phone type</option>
-                    <option value="Mobile">Mobile</option>
-                    <option value="Work">Work</option>
-                    <option value="Home">Home</option>
+                  <option value="" selected>Select phone type</option>
+                  <option value="Mobile">Mobile</option>
+                  <option value="Work">Work</option>
+                  <option value="Home">Home</option>
 
-                  </select>
-                </div>
+                </select>
 
-                <div class="message">
-                  <label for="message"> Message (optional) </label>
-                  <p></p>
-                  <textarea class="message" name="message" rows="8"></textarea>
-                </div>
+                <label for="message" class="message_label"> Message (optional) </label>
+                <p></p>
+                <textarea class="message" name="message" rows="8"></textarea>
 
-                <div class="reply">
                   <legend>Would you like a reply?</legend>
 
                   <ul>
@@ -110,11 +99,8 @@
                       <label for="message-no">No, thanks.</label>
                     </li>
                   </ul>
-                </div>
 
-                <div class="send">
                   <button type="submit">Send</button>
-                </div>
 
               </div>
 
